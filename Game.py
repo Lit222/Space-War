@@ -1691,7 +1691,7 @@ def level_8():
         enemy1 = Enemy(-100, enemy5_img, width = 58, height = 69, speed = 10, shoot_speed = 150, health = 3)
         enemy2 = Enemy(-100, enemy5_img, width = 58, height = 69, speed = 10, shoot_speed = 150, health = 3)
         enemy3 = Enemy(-100, enemy5_img, width = 58, height = 69, speed = 10, shoot_speed = 150, health = 3)
-        boss = Enemy(-1000, boss2_img, width = 295, height = 311, speed = 3, shoot_speed = 100, health = 5, boss = True)
+        boss = Enemy(-10000, boss2_img, width = 295, height = 311, speed = 3, shoot_speed = 100, health = 5, boss = True)
         all_enemys = [enemy1, enemy2, enemy3, boss]
 
 
